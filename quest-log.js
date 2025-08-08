@@ -17,21 +17,22 @@ for(var j = 0; j<questLog.length; j++){
 questLog.push("Deliver the Royal Scroll");
 for(var i = 0; i<questLog.length; i++){
     console.log("\n"+questLog[i]+"\n");
-<<<<<<< HEAD
-}
-
-//Step 6
-questLog.unshift("Rescue the Blacksmith's Cat");
-for(var i = 0; i<questLog.length; i++){
-    console.log("\n"+questLog[i]+"\n");
-=======
 
 }
+
 //Step 5
 
 console.log(questLog.pop());
 console.log("updated array");
 for(var i = 0; i<questLog.length; i++){
     console.log(questLog[i]);
->>>>>>> 9d4990c90f904d51258f7c3c45951f9fda8bef9c
+
+}
+
+//Step 6
+questLog.unshift("Rescue the Blacksmith's Cat");
+for(var i = 0; i<questLog.length; i++){
+    console.log("\n"+questLog[i]+"\n");
+
+
 }
