@@ -52,4 +52,9 @@ for(var i = 0; i<questLog.length; i++){
 
 
 }
+//Step 9
+questLog.splice(1, 0, "Slay the Dragon of Mount Doom");
+for (var i = 0; i < questLog.length; i++) {
+    console.log(questLog[i]);
+}
 
