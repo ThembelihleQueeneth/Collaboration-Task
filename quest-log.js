@@ -17,4 +17,12 @@ for(var j = 0; j<questLog.length; j++){
 questLog.push("Deliver the Royal Scroll");
 for(var i = 0; i<questLog.length; i++){
     console.log("\n"+questLog[i]+"\n");
+
+}
+//Step 5
+
+console.log(questLog.pop());
+console.log("updated array");
+for(var i = 0; i<questLog.length; i++){
+    console.log(questLog[i]);
 }
