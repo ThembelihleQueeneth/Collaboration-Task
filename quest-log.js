@@ -5,4 +5,11 @@ for(var i = 0; i<questLog.length; i++){
     console.log(questLog[i]);
 }
 
+
 console.log("The size of the log: "+questLog.length);
+
+//Step 3
+for(var j = 0; j<questLog.length; j++){
+    console.log(questLog[0]);
+    break;
+}
