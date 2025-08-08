@@ -36,3 +36,20 @@ for(var i = 0; i<questLog.length; i++){
 
 
 }
+//Step 7
+
+console.log(questLog.shift());
+console.log("updated array after shift");
+for(var i = 0; i<questLog.length; i++){
+    console.log(questLog[i]);
+}
+
+//Step 8
+
+questLog.splice("Defeat the Goblin King");
+for(var i = 0; i<questLog.length; i++){
+    console.log("\n"+questLog[i]+"\n");
+
+
+}
+
