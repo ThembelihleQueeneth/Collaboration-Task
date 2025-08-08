@@ -1,5 +1,15 @@
+//Partner 1
+//The name of your favorite movie.
+var movieName = "The Forge";
 
+//The number of siblings you have.
+var siblingNum = 3;
 
+//A value representing whether you have seen the movie Inception.
+var movieSeen = false;
+
+//A description of a dream vacation spot, including the country, city, and a planned activity.
+var dream_vacation = "My dream vacation is to next to the ocean in South Africa at the city of Cape Town and relaxing";
 
 //Partner 2 → Responsible for Scenarios 5–8
  var top_three_fav_food = ["Pizza", "Burger", "Ribs"];
