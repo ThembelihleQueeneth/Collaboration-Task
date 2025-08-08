@@ -46,10 +46,10 @@ for(var i = 0; i<questLog.length; i++){
 
 //Step 8
 
-questLog.splice("Defeat the Goblin King");
+questLog.splice(1,0,"Defeat the Goblin King");
 for(var i = 0; i<questLog.length; i++){
     console.log("\n"+questLog[i]+"\n");
-
-
 }
+
+
 
