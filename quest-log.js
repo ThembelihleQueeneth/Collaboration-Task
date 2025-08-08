@@ -35,3 +35,11 @@ for(var i = 0; i<questLog.length; i++){
     console.log(questLog[i]);
 >>>>>>> 9d4990c90f904d51258f7c3c45951f9fda8bef9c
 }
+//Step 7
+
+console.log(questLog.shift());
+console.log("updated array after shift");
+for(var i = 0; i<questLog.length; i++){
+    console.log(questLog[i]);
+}
+
