@@ -4,3 +4,5 @@ const questLog = ["Collect 10 Firefly Wings" ,"Defeat the Goblin King" ,"Find th
 for(var i = 0; i<questLog.length; i++){
     console.log(questLog[i]);
 }
+
+console.log("The size of the log: "+questLog.length);
