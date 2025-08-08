@@ -50,6 +50,12 @@ questLog.splice(1,0,"Defeat the Goblin King");
 for(var i = 0; i<questLog.length; i++){
     console.log("\n"+questLog[i]+"\n");
 }
-
-
+//Step 9
+questLog.splice(1, 0, "Slay the Dragon of Mount Doom");
+for (var i = 0; i < questLog.length; i++) {
+    console.log(questLog[i]);
+}
+//Step 10
+let text = questLog.join(" | ");
+console.log("\n"+text+"\n");
 
